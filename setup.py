@@ -31,7 +31,6 @@ setup(
     version = '1.0.0',
     description = 'Send Message To Feishu',
     long_description = long_description,
-    long_description_content_type = "text/markdown",
     packages = [
         'feishu_message',
     ],
