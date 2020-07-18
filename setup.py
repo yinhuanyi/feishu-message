@@ -23,21 +23,21 @@ with open("README.md", "r") as f:
   long_description = f.read()
 
 setup(
-    name = 'zabbix-feishu-alert',
+    name = 'feishu-message',
     author = 'Robby',
     author_email = 'yinhuanyicn@gmail.com',
-    url = 'https://github.com/yinhuanyi/zabbix-feishu-alert',
+    url = 'https://github.com/yinhuanyi/feishu-message',
     license = "MIT",
-    version = '1.0.7',
-    description = 'zabbix send alert message and graph to feishu robot',
+    version = '1.0.0',
+    description = 'Send Message To Feishu',
     long_description = long_description,
     long_description_content_type = "text/markdown",
     packages = [
-        'zabbix_feishu_alert',
+        'feishu_message',
     ],
     install_requires = [
         'requests',
     ],
     dependency_links = [],
-    package_data = package_data("zabbix_feishu_alert",),
+    package_data = package_data("feishu_message",),
 )

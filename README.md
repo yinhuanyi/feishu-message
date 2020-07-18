@@ -83,6 +83,5 @@ feishu.send_recovery_message("Zabbix Recovery Title",
 
 - 在应用凭证栏中，可以看到APP ID和App Secret
 
-![feishu_app](./feishu_app.png)
 
 # 欢迎提交PR
